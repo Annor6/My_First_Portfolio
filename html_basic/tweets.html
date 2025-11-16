@@ -6,22 +6,35 @@
   <title>My Tweets</title>
 </head>
 <body>
+  <header>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
+  </header>
 
-  <h1>My Embedded Tweet</h1>
+  <main>
+    <article>
+      <h1>My Embedded Tweet</h1>
 
-  <!-- Embedded Tweet (you can replace with any Tweet later) -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">Just setting up my twttr</p>&mdash; jack (@jack)
-    <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a>
-  </blockquote>
+      <!-- Embedded Tweet (example; you can replace with any tweet markup from Twitter) -->
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Just setting up my twttr</p>&mdash; jack (@jack)
+        <a href="https://twitter.com/jack/status/20?ref_src=twsrc%5Etfw">March 21, 2006</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-  <!-- Twitter script required for embeds -->
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <hr>
 
-  <hr>
+      <!-- Link back to homepage -->
+      <p><a href="index.html">Go back to Homepage</a></p>
+    </article>
 
-  <!-- Link back to homepage -->
-  <p><a href="index.html">Go back to Homepage</a></p>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
+  </main>
 
+  <footer><p>Made by Kwaku Annor Mensah - <a href="https://example.com" target="_blank">here</a>.</p></footer>
 </body>
 </html>
